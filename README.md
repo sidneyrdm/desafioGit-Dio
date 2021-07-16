@@ -1,2 +1,2 @@
 # desafio Git/GitHub-Dio 
-aula de git-gitHub com desafio de projeto
+Repositório para um desafio de projeto na Digital Innovation One.
