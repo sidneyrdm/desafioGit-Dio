@@ -1,3 +1,16 @@
+…or create a new repository on the command line
+echo "# estrutura-de-dados-em-java-" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/sidneyrdm/estrutura-de-dados-em-java-.git
+git push -u origin master
+…or push an existing repository from the command line
+git remote add origin https://github.com/sidneyrdm/estrutura-de-dados-em-java-.git
+git branch -M master
+git push -u origin master
+
 comandos úteis do git
 
 ##Git help.:
