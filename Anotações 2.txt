@@ -1,0 +1,28 @@
+COMANDOS NOVOS
+- checkout -> migrar de branch
+uso do checkout
+
+aqui saindo da branch master e criando uma nova branch e indo para ela
+... git checkout -b nova-funcionalidade
+... git checkout nova-funcionalidade -> apenas muda da branch que eu estava para a branch nova-funcionalidade
+
+MUDAR O NOME DE UMA BRANCH 
+ - dentro da branch a ser renomeada
+ - digitar git branch -m 'novo nome da branch'
+
+DELETAR UMA BRANCH
+ - git branch -d 'nome da branch'
+
+MIGRAR ARQUIVOS AINDA NÃO COMITADOS PARA UM LOCAL SEGURO E EVITAR QUE ELES FIQUEM INDO DE BRANCH EM BRANCH
+ git stash save "guardando arquivos movidos junto com a mudança de branch"
+
+PEGAR OS ARQUIVOS GUARDADOS E COLOCAR DE VOLTA NA BRANCH
+ git stash pop
+
+LIMPAR O STASH
+ git stash clear
+
+COMANDO GIT LOG -> MOSTRA O HISTÓRICO DE COMMITS NO REPOSITÓRIO
+git log
+
+
